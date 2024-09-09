@@ -1,21 +1,21 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'VVS Basanth',
+    lastName:  'Pedapati',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'AI Full Stack Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Hindi']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>I build and develop web applications for the internet, and share thoughts on the intersection of creativity and software engineering.</>
 }
 
 const social = [
@@ -24,22 +24,22 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/vvs-basanth',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/basanth-pedapati/',
     },
     {
         name: 'X',
         icon: 'x',
-        link: '',
+        link: 'https://x.com/VvsPedapati',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:vvs.pedapati@hotmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>AI Full-Stack Engineer</>,
+    subline: <>I'm Basanth, a Full-Stack Engineer and Founder | CEO of <InlineCode>StellaX Technologies</InlineCode>, where I am building an AI-powered Web Browser for software developers.</>
 }
 
 const about = {
@@ -69,16 +69,16 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Basanth is a India-based Full Stack Engineer with a passion for building and developing cool web applications for the internet. His work spans problem solving, innovative development practices, and the convergence of design and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'StellaX',
+                timeframe: '2023 - Present',
+                role: 'Founder | CEO',
                 achievements: [
                     <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
                     <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
@@ -93,9 +93,9 @@ const about = {
                 ]
             },
             {
-                company: 'Creativ3',
+                company: 'GITAM Aero Astro',
                 timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                role: 'Full Stack Developer',
                 achievements: [
                     <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
                     <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
@@ -109,12 +109,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'GITAM University',
+                description: <>Studied mechanical engineering.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'APP Brewery',
+                description: <>Studied Web Development.</>,
             }
         ]
     },
@@ -142,6 +142,30 @@ const about = {
             },
             {
                 title: 'Next.js',
+                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-04.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'React.js',
+                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-04.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Project Management',
                 description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
                 images: [
                     {
