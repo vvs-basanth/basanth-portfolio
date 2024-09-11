@@ -2,15 +2,15 @@ import { InlineCode } from "@/once-ui/components";
 import Link from 'next/link'
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'VVS Basanth',
+    lastName:  'Pedapati',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'AI Full Stack Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Hindi']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,22 +24,22 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/vvs-basanth',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/basanth-pedapati/',
     },
     {
         name: 'X',
         icon: 'x',
-        link: '',
+        link: 'https://x.com/VvsPedapati',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:vvs.pedapati@hotmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive user experiences. After hours, I build my own projects.</>
+    headline: <>AI Full-Stack Engineer</>,
+    subline: <>I'm Basanth, a Full-Stack Engineer and Founder | CEO of <InlineCode>StellaX Technologies</InlineCode>, where I am building an AI-powered Web Browser for software developers.</>
 }
 
 const about = {
@@ -69,40 +69,29 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: 
-        <>
-            <p>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</p>
-            <p>My work spans a diverse range of disciplines, from crafting <Link href="/work">intuitive digital interfaces</Link> to designing immersive interactive experiences. I’m particularly interested in the intersection of design and engineering, where aesthetics meet functionality. I believe that the best solutions arise from a balance of creativity and technical rigor, and I enjoy the challenge of finding that balance in every project I undertake.</p>
-        </>
+        description: <>Basanth is a India-based Full Stack Engineer with a passion for building and developing cool web applications for the internet. His work spans problem solving, innovative development practices, and the convergence of design and technology.</>
     },
     work: {
         display: false, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'StellaX Technologies',
+                timeframe: '2023 - Present',
+                role: 'Founder | CEO',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Developed an effective Project Planning strategy for building AI Web Browser "StellaX".</>,
+                    <>Spearheaded the integration of AI tools into web browser, targeting developers using developer tools.</>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
-                ]
+                images: [ ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'GITAM Aero Astro',
+                timeframe: '2020 - 2023',
+                role: 'Full Stack Developer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed a web application for the student members of GITAM Aero Astro, enhancing the UI consistency by 40%.</>,
+                    <>Led a cross-functional team to launch a new dashboard and collaboration interface, contributing to a 200% increase in overall work efficiency revenue.</>
                 ],
                 images: [ ]
             }
@@ -113,17 +102,17 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'GITAM University',
+                description: <>Studied Mechanical Engineering.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'The London App Brewery',
+                description: <>Studied Web Development.</>,
             }
         ]
     },
     technical: {
-        display: false, // set to false to hide this section
+        display: true, // set to false to hide this section
         title: 'Technical skills',
         skills: [
             {
@@ -146,7 +135,12 @@ const about = {
             },
             {
                 title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                description: <>Building next gen apps with Next.js + Once UI + Supabase/Firebase + MongoDB.</>,
+                images: [ ]
+            },
+            {
+                title: 'React.js',
+                description: <>Building next gen apps with React.js + Once UI + CockroachDB + GitHub Actions.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-04.jpg',
@@ -155,6 +149,11 @@ const about = {
                         height: 9
                     },
                 ]
+            },
+            {
+                title: 'Project Management',
+                description: <>Using DevOps tools of GitHub Actions as well as Docker.</>,
+                images: [ ]
             }
         ]
     }

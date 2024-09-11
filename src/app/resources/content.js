@@ -80,25 +80,18 @@ const about = {
                 timeframe: '2023 - Present',
                 role: 'Founder | CEO',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Developed an effective Project Planning strategy for building AI Web Browser "StellaX".</>,
+                    <>Spearheaded the integration of AI tools into web browser, targeting developers using developer tools.</>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
-                ]
+                images: [ ]
             },
             {
                 company: 'GITAM Aero Astro',
-                timeframe: '2018 - 2022',
+                timeframe: '2020 - 2023',
                 role: 'Full Stack Developer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed a web application for the student members of GITAM Aero Astro, enhancing the UI consistency by 40%.</>,
+                    <>Led a cross-functional team to launch a new dashboard and collaboration interface, contributing to a 200% increase in overall work efficiency revenue.</>
                 ],
                 images: [ ]
             }
@@ -113,7 +106,7 @@ const about = {
                 description: <>Studied mechanical engineering.</>,
             },
             {
-                name: 'APP Brewery',
+                name: 'The London App Brewery',
                 description: <>Studied Web Development.</>,
             }
         ]
@@ -142,19 +135,12 @@ const about = {
             },
             {
                 title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                description: <>Building next gen apps with Next.js + Once UI + Supabase/Firebase + MongoDB.</>,
+                images: [ ]
             },
             {
                 title: 'React.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                description: <>Building next gen apps with React.js + Once UI + CockroachDB + GitHub Actions.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-04.jpg',
@@ -166,15 +152,8 @@ const about = {
             },
             {
                 title: 'Project Management',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                description: <>Using DevOps tools of GitHub Actions as well as Docker.</>,
+                images: [ ]
             }
         ]
     }
